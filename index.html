@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="resources/style.css" />
+    <title>DPS Calc</title>
+</head>
+<body>
+    <div class="form">
+        <div>
+            Att : <input type="number" id="attack">
+            Dex : <input type="number" id="dexterity">
+        </div>
+        <div>
+            <select id="weaponType">
+                <option value="bows">Bow/Longbow</option>
+                <option value="daggers">Dagger/Blade</option>
+                <option value="katanas">Katana/Tachi</option>
+                <option value="staves">Staff/Spellblade</option>
+                <option value="swords">Sword/Flail</option>
+                <option value="wands">Wand/Morning Star</option>
+            </select>
+            <select id="weaponName">
+            </select>
+        </div>
+        <button id="submitStats">Submit</button>
+    </div>
+    <div class="graph">
+        <canvas id="dpsGraph" aria-label="chart" role="img"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="resources/script.js"></script>
+</body>
+</html>

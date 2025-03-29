@@ -1,0 +1,27 @@
+{
+    "name":"Thousand Shot",
+    "tier":-1,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":130,
+        "rateOfFire":2,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":30,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    }
+}

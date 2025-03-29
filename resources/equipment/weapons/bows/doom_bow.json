@@ -1,0 +1,27 @@
+{
+    "name":"Doom Bow",
+    "tier":-2,
+    "shots":[{
+        "count":1,
+        "minDmg":500,
+        "maxDmg":600,
+        "rateOfFire":0.33,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    }
+}

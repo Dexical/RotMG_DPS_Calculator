@@ -1,0 +1,34 @@
+{
+    "name":"Bow of Mystical Energy",
+    "tier":13,
+        "shots":[{
+            "count":1,
+            "minDmg":125,
+            "maxDmg":135,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":35,
+            "maxDmg":45,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    }
+}

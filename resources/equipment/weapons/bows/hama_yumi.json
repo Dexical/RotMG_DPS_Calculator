@@ -1,0 +1,34 @@
+{
+    "name":"Hama Yumi",
+    "tier":-1,
+    "shots":[{
+        "count":2,
+        "minDmg":120,
+        "maxDmg":150,
+        "rateOfFire":0.92,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":55,
+        "maxDmg":65,
+        "rateOfFire":0.96,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":true,
+        "count":4,
+        "minDelay":0.8,
+        "maxDelay":1.8
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    }
+}

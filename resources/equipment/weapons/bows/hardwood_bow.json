@@ -1,0 +1,34 @@
+{
+    "name":"Hardwood Bow",
+    "tier":2,
+        "shots":[{
+            "count":1,
+            "minDmg":25,
+            "maxDmg":30,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":5,
+            "maxDmg":15,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    }
+}
