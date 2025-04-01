@@ -3,11 +3,11 @@ Since no DPS Calculator seems to be updated or even just existing, I made my own
 
 This is WIP, abolutely not optimized, I'm still learning.
 ## How to use
-If you wanna use this, you'll need a server, otherwise your browser won't authorize the file access.
+You can just open this page : https://dexical.github.io/RotMG_DPS_Calculator/
 
-Open index.html.
+Then input your total Dex and Att, choose a weapon and submit. You can submit as many as you want.
 
-Input your total Dex and Att, choose a weapon then submit. You can submit as many as you want.
+If you wanna add weapons and stuff on your own, you'll need a (local) server to run it, otherwise your browser won't authorize the file access.
 ## How to add a weapon
 Weapons are stored in "resources/equipment/weapons" folder.
 
