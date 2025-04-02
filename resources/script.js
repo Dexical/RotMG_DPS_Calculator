@@ -213,10 +213,11 @@ function dpsCalculations(champion) {
 		let max = element.maxDmg * dmgMultiplier;
 		for (let j = 0; j < xPoints+1; j++) {
 			let dmg = avgDmgCalcultations(element, min, max, j);
-			totalDps[j] = totalDps[j] + (dmg * element.count * rateOfFire);
+			let shotDps = dmg * element.count * rateOfFire;
 			if (!champion.weapon.burst.enabled) {
-				totalDps[j] = totalDps[j] * element.rateOfFire;
+				shotDps = shotDps * element.rateOfFire;
 			}
+			totalDps[j] = totalDps[j] + shotDps;
 		}
 	}
 	for (let j = 0; j < xPoints+1; j++){

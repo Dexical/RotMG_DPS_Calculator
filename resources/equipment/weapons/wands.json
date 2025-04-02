@@ -1,10 +1,10 @@
 [{
-    "name":"",
+    "name":"Fire Wand",
     "tier":0,
     "shots":[{
         "count":1,
-        "minDmg":0,
-        "maxDmg":0,
+        "minDmg":30,
+        "maxDmg":55,
         "rateOfFire":1,
         "pierce":false
     }],
@@ -25,4 +25,733 @@
         "wis":0
     },
     "effectDps":0
-}]
+},
+{
+    "name":"Force Wand",
+    "tier":1,
+    "shots":[{
+        "count":1,
+        "minDmg":40,
+        "maxDmg":70,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Power Wand",
+    "tier":2,
+    "shots":[{
+        "count":1,
+        "minDmg":45,
+        "maxDmg":80,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Missile Wand",
+    "tier":3,
+    "shots":[{
+        "count":1,
+        "minDmg":50,
+        "maxDmg":85,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Eldritch Wand",
+    "tier":4,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":95,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Hell's Fire Wand",
+    "tier":5,
+    "shots":[{
+        "count":1,
+        "minDmg":80,
+        "maxDmg":110,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Dark Magic",
+    "tier":6,
+    "shots":[{
+        "count":1,
+        "minDmg":95,
+        "maxDmg":125,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Arcane Flame",
+    "tier":7,
+    "shots":[{
+        "count":1,
+        "minDmg":110,
+        "maxDmg":140,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of Mystic Light",
+    "tier":7,
+    "shots":[{
+        "count":2,
+        "minDmg":55,
+        "maxDmg":70,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":55,
+        "maxDmg":70,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":55,
+        "maxDmg":70,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Death",
+    "tier":8,
+    "shots":[{
+        "count":1,
+        "minDmg":115,
+        "maxDmg":155,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of Silent Mourning",
+    "tier":8,
+    "shots":[{
+        "count":2,
+        "minDmg":60,
+        "maxDmg":70,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":60,
+        "maxDmg":70,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":60,
+        "maxDmg":70,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Deep Sorcery",
+    "tier":9,
+    "shots":[{
+        "count":1,
+        "minDmg":120,
+        "maxDmg":160,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of Hidden Secrets",
+    "tier":9,
+    "shots":[{
+        "count":2,
+        "minDmg":60,
+        "maxDmg":75,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":60,
+        "maxDmg":75,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":60,
+        "maxDmg":75,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Shadow",
+    "tier":10,
+    "shots":[{
+        "count":1,
+        "minDmg":125,
+        "maxDmg":165,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of the Night",
+    "tier":10,
+    "shots":[{
+        "count":2,
+        "minDmg":65,
+        "maxDmg":75,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":65,
+        "maxDmg":75,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":65,
+        "maxDmg":75,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Ancient Warning",
+    "tier":11,
+    "shots":[{
+        "count":1,
+        "minDmg":125,
+        "maxDmg":170,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of Harrowing Memories",
+    "tier":11,
+    "shots":[{
+        "count":2,
+        "minDmg":65,
+        "maxDmg":80,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":65,
+        "maxDmg":80,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":65,
+        "maxDmg":80,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Recompense",
+    "tier":12,
+    "shots":[{
+        "count":1,
+        "minDmg":130,
+        "maxDmg":175,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of Repentance",
+    "tier":12,
+    "shots":[{
+        "count":2,
+        "minDmg":70,
+        "maxDmg":80,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":70,
+        "maxDmg":80,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":70,
+        "maxDmg":80,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Evocation",
+    "tier":13,
+    "shots":[{
+        "count":1,
+        "minDmg":145,
+        "maxDmg":180,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of Conjuration",
+    "tier":13,
+    "shots":[{
+        "count":2,
+        "minDmg":75,
+        "maxDmg":85,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":75,
+        "maxDmg":85,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":75,
+        "maxDmg":85,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Wand of Retribution",
+    "tier":14,
+    "shots":[{
+        "count":1,
+        "minDmg":150,
+        "maxDmg":195,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Morning Star of Reckoning",
+    "tier":14,
+    "shots":[{
+        "count":2,
+        "minDmg":80,
+        "maxDmg":90,
+        "rateOfFire":0.45,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":80,
+        "maxDmg":90,
+        "rateOfFire":0.55,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":80,
+        "maxDmg":90,
+        "rateOfFire":0.6,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+}
+]

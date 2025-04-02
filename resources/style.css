@@ -1,6 +1,28 @@
-body {
+.bg-oryx {
     background-image: url("backgrounds/bg-oryx.jpg");
     background-size: 100%;
+}
+
+.bg-trans {
+    background-image: url("backgrounds/bg-trans.jpg");
+    background-size: 100%;
+}
+
+.bg-skuld {
+    background-image: url("backgrounds/bg-skuld.jpg");
+    background-size: 100%;
+}
+
+.bg-gradient{
+    background-image: radial-gradient(white, darkslategrey, black);
+}
+
+.wt-ut{
+    background-color: #9b69bd;
+}
+
+.wt-st{
+    background-color: #cc9169;
 }
 
 .graph{

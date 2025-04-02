@@ -1,10 +1,10 @@
 [{
-    "name":"",
+    "name":"Short Sword",
     "tier":0,
     "shots":[{
         "count":1,
-        "minDmg":0,
-        "maxDmg":0,
+        "minDmg":45,
+        "maxDmg":90,
         "rateOfFire":1,
         "pierce":false
     }],
@@ -25,4 +25,677 @@
         "wis":0
     },
     "effectDps":0
-}]
+},
+{
+    "name":"Broad Sword",
+    "tier":1,
+    "shots":[{
+        "count":1,
+        "minDmg":60,
+        "maxDmg":105,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Saber",
+    "tier":2,
+    "shots":[{
+        "count":1,
+        "minDmg":75,
+        "maxDmg":105,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Long Sword",
+    "tier":3,
+    "shots":[{
+        "count":1,
+        "minDmg":75,
+        "maxDmg":120,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Falchion",
+    "tier":4,
+    "shots":[{
+        "count":1,
+        "minDmg":75,
+        "maxDmg":135,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Fire Sword",
+    "tier":5,
+    "shots":[{
+        "count":1,
+        "minDmg":90,
+        "maxDmg":135,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Glass Sword",
+    "tier":6,
+    "shots":[{
+        "count":1,
+        "minDmg":110,
+        "maxDmg":160,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Golden Sword",
+    "tier":7,
+    "shots":[{
+        "count":1,
+        "minDmg":150,
+        "maxDmg":180,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Gilded Flail",
+    "tier":7,
+    "shots":[{
+        "count":1,
+        "minDmg":200,
+        "maxDmg":260,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":40,
+        "maxDmg":60,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Ravenheart Sword",
+    "tier":8,
+    "shots":[{
+        "count":1,
+        "minDmg":180,
+        "maxDmg":255,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Champion's Flail",
+    "tier":8,
+    "shots":[{
+        "count":1,
+        "minDmg":285,
+        "maxDmg":345,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":50,
+        "maxDmg":70,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Dragonsould Sword",
+    "tier":9,
+    "shots":[{
+        "count":1,
+        "minDmg":195,
+        "maxDmg":255,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Darkerider's Flail",
+    "tier":9,
+    "shots":[{
+        "count":1,
+        "minDmg":295,
+        "maxDmg":355,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":55,
+        "maxDmg":70,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Archon Sword",
+    "tier":10,
+    "shots":[{
+        "count":1,
+        "minDmg":210,
+        "maxDmg":255,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Infernal Flail",
+    "tier":10,
+    "shots":[{
+        "count":1,
+        "minDmg":305,
+        "maxDmg":365,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":55,
+        "maxDmg":75,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Skysplitter Sword",
+    "tier":11,
+    "shots":[{
+        "count":1,
+        "minDmg":210,
+        "maxDmg":270,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Mithril Flail",
+    "tier":11,
+    "shots":[{
+        "count":1,
+        "minDmg":315,
+        "maxDmg":375,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":60,
+        "maxDmg":75,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Sword of Acclaim",
+    "tier":12,
+    "shots":[{
+        "count":1,
+        "minDmg":220,
+        "maxDmg":275,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Celebrant Flail",
+    "tier":12,
+    "shots":[{
+        "count":1,
+        "minDmg":325,
+        "maxDmg":385,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":60,
+        "maxDmg":80,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Sword of Splendor",
+    "tier":13,
+    "shots":[{
+        "count":1,
+        "minDmg":235,
+        "maxDmg":290,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Divine Flail",
+    "tier":13,
+    "shots":[{
+        "count":1,
+        "minDmg":340,
+        "maxDmg":400,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":65,
+        "maxDmg":90,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Sword of Majesty",
+    "tier":14,
+    "shots":[{
+        "count":1,
+        "minDmg":250,
+        "maxDmg":305,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Gravelord's Flail",
+    "tier":14,
+    "shots":[{
+        "count":1,
+        "minDmg":355,
+        "maxDmg":415,
+        "rateOfFire":0.5,
+        "pierce":false
+    },
+    {
+        "count":2,
+        "minDmg":70,
+        "maxDmg":100,
+        "rateOfFire":0.5,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+}
+]

@@ -1,11 +1,683 @@
 [{
-    "name":"",
+    "name":"Steel Dagger",
     "tier":0,
     "shots":[{
         "count":1,
-        "minDmg":0,
-        "maxDmg":0,
+        "minDmg":25,
+        "maxDmg":70,
         "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Dirk",
+    "tier":1,
+    "shots":[{
+        "count":1,
+        "minDmg":25,
+        "maxDmg":80,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Blue Steel Dagger",
+    "tier":2,
+    "shots":[{
+        "count":1,
+        "minDmg":30,
+        "maxDmg":85,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Dusky Rose Dagger",
+    "tier":3,
+    "shots":[{
+        "count":1,
+        "minDmg":40,
+        "maxDmg":90,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Silver Dagger",
+    "tier":4,
+    "shots":[{
+        "count":1,
+        "minDmg":45,
+        "maxDmg":100,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Golden Dagger",
+    "tier":5,
+    "shots":[{
+        "count":1,
+        "minDmg":50,
+        "maxDmg":110,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Obsidian Dagger",
+    "tier":6,
+    "shots":[{
+        "count":1,
+        "minDmg":60,
+        "maxDmg":125,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Mithril Dagger",
+    "tier":7,
+    "shots":[{
+        "count":1,
+        "minDmg":70,
+        "maxDmg":140,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Royal Blades",
+    "tier":7,
+    "shots":[{
+        "count":1,
+        "minDmg":60,
+        "maxDmg":80,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":40,
+        "maxDmg":70,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Fire Dagger",
+    "tier":8,
+    "shots":[{
+        "count":1,
+        "minDmg":85,
+        "maxDmg":155,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Blazing Blades",
+    "tier":8,
+    "shots":[{
+        "count":1,
+        "minDmg":60,
+        "maxDmg":90,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":50,
+        "maxDmg":80,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Ragetalon Dagger",
+    "tier":9,
+    "shots":[{
+        "count":1,
+        "minDmg":95,
+        "maxDmg":165,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Garnet Blades",
+    "tier":9,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":100,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":50,
+        "maxDmg":85,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Emeraldshard Dagger",
+    "tier":10,
+    "shots":[{
+        "count":1,
+        "minDmg":100,
+        "maxDmg":175,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Verdant Blades",
+    "tier":10,
+    "shots":[{
+        "count":1,
+        "minDmg":75,
+        "maxDmg":105,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":55,
+        "maxDmg":85,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Agateclaw Dagger",
+    "tier":11,
+    "shots":[{
+        "count":1,
+        "minDmg":105,
+        "maxDmg":190,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Occult",
+    "tier":11,
+    "shots":[{
+        "count":1,
+        "minDmg":80,
+        "maxDmg":110,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":60,
+        "maxDmg":90,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Dagger of Foul Malevolence",
+    "tier":12,
+    "shots":[{
+        "count":1,
+        "minDmg":115,
+        "maxDmg":200,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Bloodshed Blades",
+    "tier":12,
+    "shots":[{
+        "count":1,
+        "minDmg":85,
+        "maxDmg":120,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":70,
+        "maxDmg":105,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Dagger of Sinister Deeds",
+    "tier":13,
+    "shots":[{
+        "count":1,
+        "minDmg":125,
+        "maxDmg":220,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Moonstone Blades",
+    "tier":13,
+    "shots":[{
+        "count":1,
+        "minDmg":95,
+        "maxDmg":130,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":70,
+        "maxDmg":105,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Dagger of Dire Hatred",
+    "tier":14,
+    "shots":[{
+        "count":1,
+        "minDmg":140,
+        "maxDmg":235,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Soulforged Baldes",
+    "tier":14,
+    "shots":[{
+        "count":1,
+        "minDmg":105,
+        "maxDmg":140,
+        "rateOfFire":0.9,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":80,
+        "maxDmg":110,
+        "rateOfFire":1.1,
         "pierce":false
     }],
     "burst":{

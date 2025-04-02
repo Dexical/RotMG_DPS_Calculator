@@ -104,6 +104,461 @@
     "effectDps":0
 },
 {
+    "name":"Greywood Bow",
+    "tier":3,
+        "shots":[{
+            "count":1,
+            "minDmg":30,
+            "maxDmg":35,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":5,
+            "maxDmg":15,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Ironwood Bow",
+    "tier":4,
+        "shots":[{
+            "count":1,
+            "minDmg":35,
+            "maxDmg":45,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":15,
+            "maxDmg":20,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Fire Bow",
+    "tier":5,
+        "shots":[{
+            "count":1,
+            "minDmg":45,
+            "maxDmg":55,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":15,
+            "maxDmg":20,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Sharpshooter Bow",
+    "tier":6,
+        "shots":[{
+            "count":1,
+            "minDmg":55,
+            "maxDmg":65,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":15,
+            "maxDmg":20,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Redwood Bow",
+    "tier":7,
+        "shots":[{
+            "count":1,
+            "minDmg":65,
+            "maxDmg":75,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":20,
+            "maxDmg":30,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Hunter's Longbow",
+    "tier":7,
+    "shots":[{
+        "count":3,
+        "minDmg":65,
+        "maxDmg":70,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":true,
+        "count":4,
+        "minDelay":0.8,
+        "maxDelay":1.8
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Golden Bow",
+    "tier":8,
+        "shots":[{
+            "count":1,
+            "minDmg":85,
+            "maxDmg":90,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":20,
+            "maxDmg":30,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Gilded Longbow",
+    "tier":8,
+    "shots":[{
+        "count":3,
+        "minDmg":75,
+        "maxDmg":80,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":true,
+        "count":4,
+        "minDelay":0.8,
+        "maxDelay":1.8
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Verdant Bow",
+    "tier":9,
+        "shots":[{
+            "count":1,
+            "minDmg":95,
+            "maxDmg":105,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":20,
+            "maxDmg":30,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Emerald Longbow",
+    "tier":9,
+    "shots":[{
+        "count":3,
+        "minDmg":85,
+        "maxDmg":90,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":true,
+        "count":4,
+        "minDelay":0.8,
+        "maxDelay":1.8
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Bow of Fey Magic",
+    "tier":10,
+        "shots":[{
+            "count":1,
+            "minDmg":105,
+            "maxDmg":115,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":25,
+            "maxDmg":35,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Mystic Longbow",
+    "tier":10,
+    "shots":[{
+        "count":3,
+        "minDmg":95,
+        "maxDmg":105,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":true,
+        "count":4,
+        "minDelay":0.8,
+        "maxDelay":1.8
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Bow of Innocent Blood",
+    "tier":11,
+        "shots":[{
+            "count":1,
+            "minDmg":115,
+            "maxDmg":120,
+            "rateOfFire":1,
+            "pierce":false
+        },
+        {
+            "count":2,
+            "minDmg":25,
+            "maxDmg":35,
+            "rateOfFire":1,
+            "pierce":true
+        }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Crimson Longbow",
+    "tier":11,
+    "shots":[{
+        "count":3,
+        "minDmg":95,
+        "maxDmg":115,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":true,
+        "count":4,
+        "minDelay":0.8,
+        "maxDelay":1.8
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
     "name":"Bow of Covert Havens",
     "tier":12,
     "shots":[{

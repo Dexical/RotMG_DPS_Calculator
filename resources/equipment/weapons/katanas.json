@@ -1,10 +1,10 @@
 [{
-    "name":"",
+    "name":"Rusty Katana",
     "tier":0,
     "shots":[{
         "count":1,
-        "minDmg":0,
-        "maxDmg":0,
+        "minDmg":35,
+        "maxDmg":80,
         "rateOfFire":1,
         "pierce":false
     }],
@@ -25,4 +25,621 @@
         "wis":0
     },
     "effectDps":0
-}]
+},
+{
+    "name":"Kendo Stick",
+    "tier":1,
+    "shots":[{
+        "count":1,
+        "minDmg":40,
+        "maxDmg":85,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Plain Katana",
+    "tier":2,
+    "shots":[{
+        "count":1,
+        "minDmg":45,
+        "maxDmg":90,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Thunder Katana",
+    "tier":3,
+    "shots":[{
+        "count":1,
+        "minDmg":55,
+        "maxDmg":95,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Line Kutter Katana",
+    "tier":4,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":100,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Night Edge",
+    "tier":5,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":115,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Sky Edge",
+    "tier":6,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":115,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Buster Katana",
+    "tier":7,
+    "shots":[{
+        "count":1,
+        "minDmg":100,
+        "maxDmg":135,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Cloudstrike Tachi",
+    "tier":7,
+    "shots":[{
+        "count":2,
+        "minDmg":60,
+        "maxDmg":90,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Demon Edge",
+    "tier":8,
+    "shots":[{
+        "count":1,
+        "minDmg":105,
+        "maxDmg":160,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Devilbane Tachi",
+    "tier":8,
+    "shots":[{
+        "count":2,
+        "minDmg":70,
+        "maxDmg":100,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Jewel Eye Katana",
+    "tier":9,
+    "shots":[{
+        "count":1,
+        "minDmg":110,
+        "maxDmg":175,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Darksteel Tachi",
+    "tier":9,
+    "shots":[{
+        "count":2,
+        "minDmg":75,
+        "maxDmg":105,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Ichhimonji",
+    "tier":10,
+    "shots":[{
+        "count":1,
+        "minDmg":125,
+        "maxDmg":180,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Dragonbone Tachi",
+    "tier":10,
+    "shots":[{
+        "count":2,
+        "minDmg":80,
+        "maxDmg":110,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Muramasa",
+    "tier":11,
+    "shots":[{
+        "count":1,
+        "minDmg":130,
+        "maxDmg":195,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Accursed Tachi",
+    "tier":11,
+    "shots":[{
+        "count":2,
+        "minDmg":85,
+        "maxDmg":120,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Masamune",
+    "tier":12,
+    "shots":[{
+        "count":1,
+        "minDmg":145,
+        "maxDmg":195,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Skyslash Tachi",
+    "tier":12,
+    "shots":[{
+        "count":2,
+        "minDmg":90,
+        "maxDmg":125,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Sadamune",
+    "tier":13,
+    "shots":[{
+        "count":1,
+        "minDmg":160,
+        "maxDmg":210,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Sunset Tachi",
+    "tier":13,
+    "shots":[{
+        "count":2,
+        "minDmg":100,
+        "maxDmg":135,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Kusanagi",
+    "tier":14,
+    "shots":[{
+        "count":1,
+        "minDmg":175,
+        "maxDmg":225,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Godslayer Tachi",
+    "tier":14,
+    "shots":[{
+        "count":2,
+        "minDmg":110,
+        "maxDmg":140,
+        "rateOfFire":0.95,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+}
+]

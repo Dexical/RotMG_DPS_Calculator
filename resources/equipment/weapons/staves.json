@@ -1,10 +1,11 @@
-[{
-    "name":"",
+[
+{
+    "name":"Energy Staff",
     "tier":0,
     "shots":[{
-        "count":1,
-        "minDmg":0,
-        "maxDmg":0,
+        "count":2,
+        "minDmg":10,
+        "maxDmg":25,
         "rateOfFire":1,
         "pierce":false
     }],
@@ -25,4 +26,705 @@
         "wis":0
     },
     "effectDps":0
-}]
+},
+{
+    "name":"Firebrand Staff",
+    "tier":1,
+    "shots":[{
+        "count":2,
+        "minDmg":10,
+        "maxDmg":30,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Comet Staff",
+    "tier":2,
+    "shots":[{
+        "count":2,
+        "minDmg":15,
+        "maxDmg":35,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Serpetine Staff",
+    "tier":3,
+    "shots":[{
+        "count":2,
+        "minDmg":20,
+        "maxDmg":40,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Meteor Staff",
+    "tier":4,
+    "shots":[{
+        "count":2,
+        "minDmg":25,
+        "maxDmg":45,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Slayer Staff",
+    "tier":5,
+    "shots":[{
+        "count":2,
+        "minDmg":35,
+        "maxDmg":55,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Avenger Staff",
+    "tier":6,
+    "shots":[{
+        "count":2,
+        "minDmg":40,
+        "maxDmg":70,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+        "name":"Staff of Destruction",
+        "tier":7,
+        "shots":[{
+            "count":2,
+            "minDmg":45,
+            "maxDmg":85,
+            "rateOfFire":1,
+            "pierce":false
+        }],
+        "burst":{
+            "enabled":false,
+            "count":0,
+            "minDelay":0,
+            "maxDelay":0
+        },
+        "stats":{
+            "hp":0,
+            "mp":0,
+            "att":0,
+            "def":0,
+            "spd":0,
+            "dex":0,
+            "vit":0,
+            "wis":0
+        },
+        "effectDps":0
+},
+{
+    "name":"Spellblade of Decimation",
+    "tier":7,
+    "shots":[{
+        "count":1,
+        "minDmg":50,
+        "maxDmg":75,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":35,
+        "maxDmg":50,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of Horror",
+    "tier":8,
+    "shots":[{
+        "count":2,
+        "minDmg":50,
+        "maxDmg":90,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Spellblade of Nightmares",
+    "tier":8,
+    "shots":[{
+        "count":1,
+        "minDmg":55,
+        "maxDmg":80,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":40,
+        "maxDmg":55,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of Necrotic Arcana",
+    "tier":9,
+    "shots":[{
+        "count":2,
+        "minDmg":50,
+        "maxDmg":95,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Spellblade of Arcane Magic",
+    "tier":9,
+    "shots":[{
+        "count":1,
+        "minDmg":55,
+        "maxDmg":85,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":40,
+        "maxDmg":55,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of Diabolic Secrets",
+    "tier":10,
+    "shots":[{
+        "count":2,
+        "minDmg":55,
+        "maxDmg":95,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Spellblade of Corrupt Premonitions",
+    "tier":10,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":90,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":50,
+        "maxDmg":65,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of Astral Knowledge",
+    "tier":11,
+    "shots":[{
+        "count":2,
+        "minDmg":55,
+        "maxDmg":100,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Spellblade of Starry Insight",
+    "tier":11,
+    "shots":[{
+        "count":1,
+        "minDmg":65,
+        "maxDmg":95,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":50,
+        "maxDmg":65,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of the Cosmic Whole",
+    "tier":12,
+    "shots":[{
+        "count":2,
+        "minDmg":60,
+        "maxDmg":100,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Spellblade of the Sun",
+    "tier":12,
+    "shots":[{
+        "count":1,
+        "minDmg":80,
+        "maxDmg":95,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":55,
+        "maxDmg":70,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of the Vital Unity",
+    "tier":13,
+    "shots":[{
+        "count":2,
+        "minDmg":65,
+        "maxDmg":110,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Spellblade of the Heavens Light",
+    "tier":13,
+    "shots":[{
+        "count":1,
+        "minDmg":80,
+        "maxDmg":105,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":65,
+        "maxDmg":70,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of the Fundamental Core",
+    "tier":14,
+    "shots":[{
+        "count":2,
+        "minDmg":75,
+        "maxDmg":115,
+        "rateOfFire":1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Spellblade of the Everlasting Death",
+    "tier":14,
+    "shots":[{
+        "count":1,
+        "minDmg":90,
+        "maxDmg":110,
+        "rateOfFire":1,
+        "pierce":false
+    },
+    {
+        "count":1,
+        "minDmg":65,
+        "maxDmg":80,
+        "rateOfFire":1,
+        "pierce":true
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+},
+{
+    "name":"Staff of the Crystal Serpent",
+    "tier":-1,
+    "shots":[{
+        "count":2,
+        "minDmg":60,
+        "maxDmg":70,
+        "rateOfFire":1.1,
+        "pierce":false
+    }],
+    "burst":{
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
+    },
+    "stats":{
+        "hp":0,
+        "mp":0,
+        "att":0,
+        "def":0,
+        "spd":0,
+        "dex":0,
+        "vit":0,
+        "wis":0
+    },
+    "effectDps":0
+}
+]
