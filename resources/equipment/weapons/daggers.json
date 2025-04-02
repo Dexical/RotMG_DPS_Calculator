@@ -1,10 +1,10 @@
-{
-    "name":"Test Bow",
-    "tier":-1,
+[{
+    "name":"",
+    "tier":0,
     "shots":[{
         "count":1,
-        "minDmg":50,
-        "maxDmg":100,
+        "minDmg":0,
+        "maxDmg":0,
         "rateOfFire":1,
         "pierce":false
     }],
@@ -23,5 +23,6 @@
         "dex":0,
         "vit":0,
         "wis":0
-    }
-}
+    },
+    "effectDps":0
+}]

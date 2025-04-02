@@ -1,18 +1,18 @@
-{
-    "name":"Longbow of the Morning Spirit",
-    "tier":13,
+[{
+    "name":"",
+    "tier":0,
     "shots":[{
-        "count":3,
-        "minDmg":105,
-        "maxDmg":130,
+        "count":1,
+        "minDmg":0,
+        "maxDmg":0,
         "rateOfFire":1,
         "pierce":false
     }],
     "burst":{
-        "enabled":true,
-        "count":4,
-        "minDelay":0.8,
-        "maxDelay":1.8
+        "enabled":false,
+        "count":0,
+        "minDelay":0,
+        "maxDelay":0
     },
     "stats":{
         "hp":0,
@@ -23,5 +23,6 @@
         "dex":0,
         "vit":0,
         "wis":0
-    }
-}
+    },
+    "effectDps":0
+}]

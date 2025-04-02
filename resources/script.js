@@ -4,8 +4,11 @@ const typeSelect = document.getElementById("weaponType");
 const nameSelect = document.getElementById("weaponName");
 const graphCanvas = document.getElementById("dpsGraph");
 const colors = ["#ff0000", "#00ff00", "#0000ff", "#ff00ff", "#00ffff", "#ffff00"];
+typeSelect.addEventListener("change", changeNameSelect);
+document.getElementById("submitStats").addEventListener("click", submitStats);
+changeNameSelect();
 
-
+//Creating chart with x-axis value count and interval defined by xPoints and xDiff constants
 let xValues = [];
 for (let i = 0; i < xPoints+1; i++){ 
 	xValues.push(xDiff*i)
@@ -50,9 +53,6 @@ class Champion {
 		this.dps = [];
 	}
 };
-typeSelect.addEventListener("change", changeNameSelect);
-document.getElementById("submitStats").addEventListener("click", submitStats);
-changeNameSelect();
 
 //Updates chart values
 function updateChart() {
@@ -78,13 +78,13 @@ function updateChart() {
 }
 
 //Looks for a weapon considering its type and name
-async function getWeapon(type, name){
-	const src = "resources/equipment/weapons/" + type + "/" + name + ".json";
+async function getWeapons(type){
+	const src = "resources/equipment/weapons/" + type + ".json";
 	
 	let file = await fetch(src);
-	let weapon = await file.json();
+	let weapons = await file.json();
 	
-	return weapon;
+	return weapons;
 }
 
 //Changes names when selecting a Weapon Type
@@ -93,13 +93,12 @@ function changeNameSelect(){
 		nameSelect.removeChild(nameSelect.firstChild);
 	}
 	let weaponType = typeSelect.value;
-	getWeapon(weaponType, "list")
-	.then(names =>{
-		for (let i = 0; i < names.length; i++) {
+	getWeapons(weaponType)
+	.then(weapons =>{
+		for (let i = 0; i < weapons.length; i++) {
 			let node = document.createElement("option");
-			const textnode = document.createTextNode(names[i]);
-			let attValue = names[i].toLowerCase();
-			attValue = attValue.replace(/ /g, "_");
+			const textnode = document.createTextNode(weapons[i].name);
+			let attValue = weapons[i].name;
 
 			node.setAttribute("value", attValue);
 			node.appendChild(textnode);
@@ -124,11 +123,17 @@ function submitStats(){
 	let weaponType = typeSelect.value;
 	let weaponName = nameSelect.value;
 
-	getWeapon(weaponType, weaponName)
+	getWeapons(weaponType)
 	.then(res => {
-		let index = champions.push(new Champion(stats, res));
-		champions[index-1].dps = dpsCalculations(champions[index-1]);
-		updateChart();
+		res.forEach(weapon => {
+			if (weapon.name == weaponName){
+				let index = champions.push(new Champion(stats, weapon));
+				console.log(index);
+				champions[index-1].dps = dpsCalculations(champions[index-1]);
+				console.log(champions[index-1]);
+				updateChart();
+			}
+		})
 	});
 	
 }

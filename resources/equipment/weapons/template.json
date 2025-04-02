@@ -23,5 +23,6 @@
         "dex":0,
         "vit":0,
         "wis":0
-    }
+    },
+    "effectDps":0
 }

@@ -1,12 +1,12 @@
-{
-    "name":"Bergenia Bow",
-    "tier":-2,
+[{
+    "name":"",
+    "tier":0,
     "shots":[{
         "count":1,
-        "minDmg":160,
-        "maxDmg":195,
+        "minDmg":0,
+        "maxDmg":0,
         "rateOfFire":1,
-        "pierce":true
+        "pierce":false
     }],
     "burst":{
         "enabled":false,
@@ -23,5 +23,6 @@
         "dex":0,
         "vit":0,
         "wis":0
-    }
-}
+    },
+    "effectDps":0
+}]
