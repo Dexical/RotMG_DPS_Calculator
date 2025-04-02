@@ -11,12 +11,10 @@ If you wanna add weapons and stuff on your own, you'll need a (local) server to 
 ## How to add a weapon
 Weapons are stored in "resources/equipment/weapons" folder.
 
-In there, you'll find a file called "template.json". You can copy this template in the weapon type you like and change the attributes as you wish.
-
-When you're done, rename the file with this type of name "name_of_my_weapon.json". In every weapon's type folder you'll find "list.json". in there you'll have to add your weapon by its name. Your weapons name has to be the same as your files name but you can add capital letters and replace underscores by spaces like this : "Name of my Weapon".
+In there, you'll find a file called "template.json". You can copy this template and paste it in the weapon list and change the attributes as you wish. Don't forget to add a comma before you add a weapon to the list otherwise it won't work.
 
 That's it ! You made a new weapon, try it out.
 ## Additional notes
-This is a pretty complicated way of doing, I'm aware, but this will all change in the future anyway, stay tuned when I'll update it.
+This may seem like a complicated way of doing, I'm aware, but this will most probably in the future, stay tuned when I'll update it.
 
 Take care.
