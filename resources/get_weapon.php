@@ -7,11 +7,9 @@ $id = $_POST["weaponID"];
 // $test["trucNumero2"] = "La c'est le 2e truc";
 
 $weaponQuery = "SELECT * FROM weapons WHERE id = $id";
-$shotsQuery = "SELECT * FROM shots WHERE weapon_id = $id";
+$shotsQuery = "SELECT * FROM shots WHERE weaponID = $id";
 $weaponResult = mysqli_query($connection, $weaponQuery);
 $shotsResult = mysqli_query($connection, $shotsQuery);
-
-
 
 if (mysqli_num_rows($weaponResult) > 0) {
     $weapon = mysqli_fetch_assoc($weaponResult);

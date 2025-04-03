@@ -89,25 +89,41 @@ function updateChart() {
 }
 
 //Looks for a weapon considering its type and name
-async function getWeapon(type, name){
-	// const src = "resources/equipment/weapons/" + type + "/" + name + ".json";
-	let weap = 3;
-	$.post("resources/get_weapon.php", {
+async function getWeapon(name){
+	let weapon;
+	
+	await $.post("resources/get_weapon.php", {
 		weaponID: name
 	}, function(data, status){
-		console.log(data);
-		$("#test").html(data);
-		weap = data;
-		//fetch(data);
-			// .then(function(response){
-			// 	return response.json();
-			// })
-			// .then(function(weapon){
-			// 	console.log(weapon);
-			// })
+		weapon = JSON.parse(data);
 	})
-	console.log(weap);
-	return weap;
+
+	weapon = formatWeapon(weapon);	
+	return weapon;
+}
+
+//Format all string that are numbers in a weapon
+function formatWeapon(weapon){
+	for (const key in weapon) {
+		if (weapon.hasOwnProperty(key)) {
+			const element = weapon[key];
+			if (!Number.isNaN(Number(element))) {
+				weapon[key] = Number(element);
+			}
+		}
+	}
+
+	weapon.shots.forEach(element => {
+		for (const key in element) {
+			if (element.hasOwnProperty(key)) {
+				if (!Number.isNaN(Number(element[key]))) {
+					element[key] = Number(element[key]);
+				}
+			}
+		}
+	});
+
+	return weapon;
 }
 
 //Submits input stats
@@ -123,37 +139,27 @@ function submitStats(){
         vit:0,
         wis:0
 	}
-	let weaponType = typeSelect.value;
 	let weaponName = nameSelect.value;
 
-	getWeapon(weaponType, weaponName)
-	.then(res =>{
-		console.log("2 : " + res);
-		// fetch(res)
-		// 		.then(function(response){
-		// 			return response.json();
-		// 		})
-		// 		.then(function(weapon){
-		// 			console.log(weapon);
-		// 		});
-	})
-	// .then(res => {
-	// 	let index = champions.push(new Champion(stats, res));
-	// 	champions[index-1].dps = dpsCalculations(champions[index-1]);
-	// 	updateChart();
-	// });
+	getWeapon(weaponName)
+	.then(res => {
+		let index = champions.push(new Champion(stats, res));
+		champions[index-1].dps = dpsCalculations(champions[index-1]);
+		updateChart();
+	});
+	
 	
 }
 
 //Calculates rate of fire
 function rofCaltulations(champion) {
 	let rateOfFire = 1.5+6.5*(champion.stats.dex/75);
-	if (champion.weapon.burst.enabled) {
-		let delayDiff = champion.weapon.burst.maxDelay - champion.weapon.burst.minDelay;
-		let delay = champion.weapon.burst.maxDelay - Math.min(1, champion.stats.dex/75) * delayDiff;
-		let burstRof = (1/rateOfFire)*champion.weapon.burst.count;
+	if (champion.weapon.burstCount > 0) {
+		let delayDiff = champion.weapon.maxDelay - champion.weapon.minDelay;
+		let delay = champion.weapon.maxDelay - Math.min(1, champion.stats.dex/75) * delayDiff;
+		let burstRof = (1/rateOfFire)*champion.weapon.burstCount;
 		if (delay > burstRof) {
-			rateOfFire = champion.weapon.burst.count/delay;
+			rateOfFire = champion.weapon.burstCount/delay;
 		} 
 	}
 	return rateOfFire
@@ -220,8 +226,9 @@ function dpsCalculations(champion) {
 		let max = element.maxDmg * dmgMultiplier;
 		for (let j = 0; j < xPoints+1; j++) {
 			let dmg = avgDmgCalcultations(element, min, max, j);
-			totalDps[j] = totalDps[j] + (dmg * element.count * rateOfFire);
-			if (!champion.weapon.burst.enabled) {
+			console.log(dmg)
+			totalDps[j] = totalDps[j] + (dmg * element.shotCount * rateOfFire);
+			if (champion.weapon.burstCount <= 0) {
 				totalDps[j] = totalDps[j] * element.rateOfFire;
 			}
 		}
