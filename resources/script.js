@@ -219,7 +219,6 @@ function dpsCalculations(champion) {
 	console.log(dmgMultiplier);
 	console.log("--");
 
-	//ALED
 	for (let i = 0; i < champion.weapon.shots.length; i++) {
 		let element = champion.weapon.shots[i];
 		let min = element.minDmg * dmgMultiplier;
@@ -227,10 +226,11 @@ function dpsCalculations(champion) {
 		for (let j = 0; j < xPoints+1; j++) {
 			let dmg = avgDmgCalcultations(element, min, max, j);
 			console.log(dmg)
-			totalDps[j] = totalDps[j] + (dmg * element.shotCount * rateOfFire);
+			shotDps = dmg * element.shotCount * rateOfFire;
 			if (champion.weapon.burstCount <= 0) {
-				totalDps[j] = totalDps[j] * element.rateOfFire;
+				shotDps = shotDps * element.rateOfFire;
 			}
+			totalDps[j] = totalDps[j] + shotDps;
 		}
 	}
 	for (let j = 0; j < xPoints+1; j++){
