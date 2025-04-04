@@ -37,3 +37,16 @@ img {
 .form > *{
     margin: 2px;
 }
+
+.stat-input{
+    max-width: 40px;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.center-btn{
+    width: 100px;
+    margin: 0 auto;
+}
